@@ -1,0 +1,19 @@
+{
+  "model": "LogisticRegression in a scikit-learn Pipeline",
+  "dataset": "Kaggle Titanic train.csv",
+  "random_state": 42,
+  "training_rows": 712,
+  "testing_rows": 179,
+  "test_accuracy": 0.8045,
+  "test_accuracy_percent": 80.45,
+  "features": [
+    "Pclass",
+    "Sex",
+    "Age",
+    "SibSp",
+    "Parch",
+    "Fare",
+    "Embarked"
+  ],
+  "note": "Inference examples use held-out test records not used for fitting."
+}

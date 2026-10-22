@@ -1,0 +1,58 @@
+Training output:
+TRAINING COMPLETE
+Training records: 712
+Held-out testing records: 179
+Test accuracy: 0.8045 (80.45%)
+Saved model: /mnt/data/titanic_fastapi_assignment/model.pkl
+Saved test_records.csv and test_labels.csv
+
+
+Inference output summary:
+
+--- online_inference.py ---
+ONLINE INFERENCE
+Input passenger details:
+ Pclass  Sex  Age  SibSp  Parch  Fare Embarked
+      3 male 24.0      2      0 24.15        S
+Prediction: 0 (Did not survive)
+
+
+--- batch_inference.py ---
+BATCH INFERENCE
+Records processed together: 20
+ Record_ID  Predicted_Survived Prediction_Label
+         1                   0  Did not survive
+         2                   0  Did not survive
+         3                   0  Did not survive
+         4                   0  Did not survive
+         5                   1         Survived
+         6                   0  Did not survive
+         7                   1         Survived
+         8                   0  Did not survive
+         9                   0  Did not survive
+        10                   0  Did not survive
+        11                   0  Did not survive
+        12                   0  Did not survive
+        13                   1         Survived
+        14                   0  Did not survive
+        15                   0  Did not survive
+        16                   0  Did not survive
+        17                   0  Did not survive
+        18                   0  Did not survive
+        19                   0  Did not survive
+        20                   1         Survived
+Saved results to: /mnt/data/titanic_fastapi_assignment/batch_predictions.csv
+
+
+--- streaming_inference.py ---
+STREAMING INFERENCE (one record every second)
+Incoming record 01: prediction=0 (Did not survive)
+Incoming record 02: prediction=0 (Did not survive)
+Incoming record 03: prediction=0 (Did not survive)
+Incoming record 04: prediction=0 (Did not survive)
+Incoming record 05: prediction=1 (Survived)
+Incoming record 06: prediction=0 (Did not survive)
+Incoming record 07: prediction=1 (Survived)
+Incoming record 08: prediction=0 (Did not survive)
+Incoming record 09: prediction=0 (Did not survive)
+Incoming record 10: prediction=0 (Did not survive)

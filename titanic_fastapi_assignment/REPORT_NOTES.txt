@@ -1,0 +1,1 @@
+PDF report: See observations_report.pdf. After running the code, fill in the measured test accuracy and record your actual API/inference results in observations.md if your instructor expects numeric observations.
