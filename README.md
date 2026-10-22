@@ -64,24 +64,3 @@ In a second terminal:
 ```powershell
 python client.py
 ```
-
-## Required screenshots
-
-Capture your own screenshots after running the project:
-1. Terminal showing online inference prediction.
-2. Terminal showing batch inference and the resulting `batch_predictions.csv`.
-3. Terminal showing 10 streaming predictions.
-4. Swagger UI showing successful `/health`.
-5. Swagger UI showing successful `/predict`.
-6. Swagger UI showing a validation error (HTTP 422) for an invalid request.
-7. Terminal showing the Python client response.
-
-Save the images in `screenshots/`. Do not submit empty or fabricated screenshots.
-
-## GitHub submission
-
-Create a public repository and upload the project files, generated `model.pkl`, `batch_predictions.csv`, screenshots, and report. Include the Kaggle dataset link in the README. Do not upload passwords, API keys, or tokens. Check the repository opens without signing in before submitting the link.
-
-## Reproducibility notes
-
-The split uses `random_state=42` and stratification on `Survived`. The held-out test split is separate from model fitting. Online, batch, streaming, and API inference all load the exact same `model.pkl` pipeline.
