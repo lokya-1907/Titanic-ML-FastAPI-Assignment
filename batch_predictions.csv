@@ -1,0 +1,21 @@
+Record_ID,Pclass,Sex,Age,SibSp,Parch,Fare,Embarked,Predicted_Survived,Prediction_Label
+1,3,male,24.0,2,0,24.15,S,0,Did not survive
+2,3,male,44.0,0,1,16.1,S,0,Did not survive
+3,3,male,22.0,0,0,7.225,C,0,Did not survive
+4,3,male,41.0,2,0,14.1083,S,0,Did not survive
+5,3,female,,1,0,15.5,Q,1,Survived
+6,3,female,36.0,1,0,17.4,S,0,Did not survive
+7,2,female,36.0,0,0,13.0,S,1,Survived
+8,1,male,45.0,0,0,26.55,S,0,Did not survive
+9,1,male,49.0,1,1,110.8833,C,0,Did not survive
+10,2,male,34.0,1,0,26.0,S,0,Did not survive
+11,3,male,,0,0,7.75,Q,0,Did not survive
+12,3,male,16.0,2,0,18.0,S,0,Did not survive
+13,3,female,27.0,0,0,7.925,S,1,Survived
+14,2,male,31.0,1,1,37.0042,C,0,Did not survive
+15,1,male,19.0,3,2,263.0,S,0,Did not survive
+16,3,male,25.0,0,0,7.7417,Q,0,Did not survive
+17,3,female,,3,1,25.4667,S,0,Did not survive
+18,3,male,,0,0,8.05,S,0,Did not survive
+19,3,male,17.0,0,0,7.125,S,0,Did not survive
+20,2,female,34.0,0,0,13.0,S,1,Survived
